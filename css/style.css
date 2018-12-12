@@ -42,17 +42,28 @@ Table OF Contents
 \*------------------------------------*/
 
 #about {
-    background-color: rgb(214, 255, 225);
+    background-color: rgb(142, 243, 169);
 }
 
 .row {
     text-align: center;
 }
 
+.service {
+    height: 300px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(219, 219, 219);
+}
+
 .examples {
     width: 95%;
     margin-bottom: 20px;
     /* margin: 0 auto; */
+}
+
+.foodIs {
+    color: red;
+    font-size: 28px;
 }
 
 /* -- typography -- */
@@ -645,6 +656,12 @@ header {
     margin: 15px 0px;
     color: black;
 }
+.about-descr {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 25px;
+}
 
 .about-padding {
     padding-top: 20px;
@@ -679,7 +696,7 @@ header {
 }
 
 .about:hover h3 {
-    color: rgb(255, 158, 158);
+    color: rgb(0, 63, 145);
 }
 
 
@@ -804,9 +821,27 @@ header {
 
 .service {
     position: relative;
-    padding: 40px 20px 40px 70px;
+    /* padding: 40px 20px 40px 70px; */
+    padding: 40px 40px;
     margin: 15px 0px;
     border: 1px solid #EEE;
+}
+
+.the-prob {
+    background-color: rgb(101, 101, 101);
+    padding: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.why{
+    color:rgb(255, 104, 104);
+}
+
+.target-group {
+    background-color: rgb(201, 201, 201);
+    padding: 15px;
+    margin-top: 30px;
+    color: black;
 }
 
 .service i {
@@ -838,10 +873,11 @@ header {
 .service h3 {
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
+  color: white;
 }
 
 .service:hover h3 {
-    color: #fff;
+    color: rgb(150, 205, 241);
 }
 
 /*------------------------------------*\
